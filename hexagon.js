@@ -7,7 +7,7 @@ class Polygon
             density:0.3
         }
         this.body = Bodies.circle(100,100,35,options);
-        this.image = loadImage("unnamed.png")
+        this.image = loadImage("hexagon.png")
         World.add(world, this.body);
     }
     display()
