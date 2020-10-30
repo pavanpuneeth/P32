@@ -104,7 +104,7 @@ function draw() {
 
   Engine.update(engine);
   noStroke();
-  fill("red");
+  fill("orange");
   textFont("lucida handwriting");
   textSize(20);
   text("Score "+score,750,50);
@@ -155,12 +155,7 @@ function draw() {
   block18.score();
   block19.score();
   block20.score();
-  fill("white");
-  stroke("black");
-  textSize(20)
-  textFont("Algerian");
-  text("Drag the Hexagon and Release it to destroy the arrangement of blocks",10,20);
-  text("Press Space To get another Chance to Play",400,380);
+  
   
   drawSprites();
 }
