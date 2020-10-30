@@ -134,7 +134,7 @@ function draw() {
   block20.display();
   polygon.display();
   slingshot.display();
-  monster.display();
+  
   block1.score();
   block2.score();
   block3.score();
